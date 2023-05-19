@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --Light-red: hsl(0, 100%, 67%) --Orangey-yellow: hsl(39, 100%, 56%) --Green-teal: hsl(166, 100%, 37%) --Cobalt-blue: hsl(234, 85%, 45%)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+body {
+    background-color: hsl(221, 100%, 96%);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    min-height: 90vh;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.card {
+    box-shadow: 1px 5px 9px rgba(0, 0, 0, 0.3);
+    border-radius: 1.5rem;
+    width: 680px;
+    height: 480px;
+    background-color: white;
+}
+
+.card1 {
+    justify-content: space-between;
+    display: flex;
+}
+
+.C-container {
+    width: 50%;
+    height: 416px;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 2rem;
+    border-radius: 1.5rem;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+.circle {
+    display: flex;
+    height: 175px;
+    margin-top: 20px;
+    width: 170px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 4rem;
+}
+
+.circle p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+}
+
+strong {
+    color: hsl(0, 0%, 100%);
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+.text {
+
+    width: 240px;
+    color: rgba(255, 255, 255, 0.7);
+}
+/* Sumarry Container Div  */
+.summary {
+    width: 50%;
+    display: flex;
+    padding: 2rem;
+    gap: 17px;
+    flex-direction: column;
+}
+
+.row1 {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    border-radius: 15px;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+.Digit1 {
+    margin-left: 80px;
+}
+
+.row:nth-child(1) {
+    background-color: hsla(0, 100%, 67%, 0.10);
+    color: red;
+}
+
+.Unit1 {
+    color: black;
+}
+
+.Digit2 {
+    color: rgba(7, 7, 7, 0.40);
+}
+
+.row2 {
+    display: flex;
+    border-radius: 15px;
+    padding: 1.5rem;
+    align-items: center;
+    background-color: hsla(39, 100%, 56%, 0.10);
+    color: hsl(39, 100%, 56%);
+    gap: .1rem;
+}
+
+.row3 {
+    display: flex;
+    border-radius: 15px;
+    padding: 1.5rem;
+    align-items: center;
+    background-color: hsla(166, 100%, 37%, 0.10);
+    color: hsl(166, 100%, 37%);
+    gap: .2rem;
+}
+
+.row4 {
+    display: flex;
+    border-radius: 15px;
+    padding: 1.5rem;
+    align-items: center;
+    background-color: hsla(224, 30%, 27%, 0.10);
+    color: hsl(234, 85%, 45%);
+    gap: .2rem;
+}
+
+button {
+    width: 280px;
+    height: 40px;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+button:hover {
+
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.attribution {
+    margin-top: 45%;
+    padding-bottom: 20px;
+    margin-left: -40%;
+}
+
+@media screen and (max-width: 414px) {
+    /* Mobile View */
+    body {
+        align-items: flex-start;
+        background-color: white;
+    }
+
+    .card {
+        box-shadow: none;
+    }
+
+    .card1 {
+        flex-direction: column;
+    }
+
+    .C-container {
+        width: 100%;
+        border-radius: 0 0 1rem 1rem;
+    }
+
+    .summary {
+        width: 100%;
+    }
+
+    .Digit1 {
+        margin-left: 210px;
+    }
+
+    button {
+        margin-left: 70px;
+    }
+
+    .attribution {
+        display: none;
+    }
+}
+
+@media screen  and (max-width: 1140px) {
+    /* Desktop View */
+    .attribution{
+        display: none;
+    }
+}
