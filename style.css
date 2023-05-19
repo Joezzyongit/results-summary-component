@@ -172,7 +172,7 @@ button:hover {
     margin-left: -40%;
 }
 
-@media screen (min-width: 265px) and (max-width 414) {
+@media screen (min-width: 375px) and (max-width 414) {
     /* Mobile View */
     body {
         align-items: flex-start;
