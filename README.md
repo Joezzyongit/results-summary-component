@@ -20,7 +20,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/Joezzyongit/results-summary-component.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://joezzyongit.github.io/results-summary-component/)
 
 ## My process
 It was a long and stressful process, but what the time. I never imagined i will spend days working 
